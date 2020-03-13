@@ -7,7 +7,7 @@ class Artist
   @@artists = []
 
   #extend self.reset_all
-  extend self.count
+  #extend self.count
 
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
