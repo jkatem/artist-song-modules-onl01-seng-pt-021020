@@ -6,8 +6,8 @@ class Song
 
   @@songs = []
 
-  extend self.reset_all
-  extend self.count
+  # extend self.reset_all
+  # extend self.count
 
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
